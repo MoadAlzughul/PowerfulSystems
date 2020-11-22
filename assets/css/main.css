@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/Header2-2.png");
+		background-image: url("../../images/Header2-3.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2257,7 +2257,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #51bcd6;
+			background: #b8d7f0;
 			display: block;
 			position: absolute;
 			left: 0;
