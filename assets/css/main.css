@@ -64,6 +64,10 @@ input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
+input::-moz-focus-inner2 {
+	border: 0;
+	padding: 0;
+}
 
 input, select, textarea {
 	-moz-appearance: none;
@@ -2005,6 +2009,9 @@ input, select, textarea {
 	form ::-moz-focus-inner {
 		border: 0;
 	}
+	form ::-moz-focus-inner2 {
+		border: 0;
+	}
 
 /* Table */
 
@@ -2176,7 +2183,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header6-1.png");
+		background-image: url("../../images/Header6-1-3.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2199,6 +2206,15 @@ input, select, textarea {
 			margin: 0;
 			display: inline-block;
 			vertical-align: middle;
+		}
+		#header .inner2 {
+			position: relative;
+			z-index: 1;
+			margin: 0;
+			display: inline-block;
+			vertical-align: middle;
+			background-repeat: no-repeat;
+			background-image: url("../../images/NewLogo1.png");
 		}
 
 		#header header {
@@ -2257,7 +2273,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #b8d7f0;
+			background: #8a96a0;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2619,6 +2635,11 @@ input, select, textarea {
 			.carousel article p {
 				text-align: center;
 			}
+			#over img {
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
 
 /* Wide */
 
@@ -2673,6 +2694,10 @@ input, select, textarea {
 			}
 
 				#header .inner {
+					padding-left: 2em;
+					padding-right: 2em;
+				}
+				#header .inner2 {
 					padding-left: 2em;
 					padding-right: 2em;
 				}
@@ -3053,6 +3078,11 @@ input, select, textarea {
 			}
 
 				#header .inner {
+					padding-top: 1.5em;
+					padding-left: 1em;
+					padding-right: 1em;
+				}
+				#header .inner2 {
 					padding-top: 1.5em;
 					padding-left: 1em;
 					padding-right: 1em;
