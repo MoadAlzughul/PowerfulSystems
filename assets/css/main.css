@@ -2691,6 +2691,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
+				height: auto!important;
 			}
 
 				#header .inner {
